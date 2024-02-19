@@ -1,0 +1,17 @@
+model :
+  User :
+    id: int
+    name: String
+    age: int
+    address: String
+
+  Supplier:
+    id: int
+    name: String
+    phone: int
+
+  Customer:
+    id: int
+    users: List<User>
+
+
